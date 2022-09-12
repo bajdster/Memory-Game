@@ -21,12 +21,6 @@ let seconds = 0;
 let minutes = 0;
 let counter;
 
-//making site refresh
-// playTime.onclick = function()
-// {
-//     window.location.href = window.location.href
-// }
-
 function startGame(images)
 {
     guessedBoxes.innerHTML = `${guessedImages}/${boxes.length}` 
@@ -157,32 +151,15 @@ function check()
 
 window.addEventListener("load", startGame(images))
 
-// mixedImages(images).then(console.log(images));
-
 console.log(images)
 
 
 
-//add progress bar 
-
-//make reset function - temporary created function reseting all page as F5
 
 
 
 
 
-
-
-// function createBoard()
-// {
-//     for(let i = 0; i<=15;i++)
-//     {
-//         let boardCell = document.createElement("div")
-//         boardCell.classList.add("cell");
-//         gameWindow.appendChild(boardCell)
-//     }
-// }
- 
 
 
 // function startGame()
