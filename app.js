@@ -152,25 +152,3 @@ function check()
 window.addEventListener("load", startGame(images))
 
 console.log(images)
-
-
-
-
-
-
-
-
-
-
-// function startGame()
-// {
-//     createBoard()
-// }
-
-// window.addEventListener("load", startGame)
-
-
-
-
-
-//stylign by flexbox shrink grow basis first
